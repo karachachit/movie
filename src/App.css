@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(55, 55, 246);
+  color: white;
+  padding: 1rem;
+}
+main {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.btn-add {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(242, 136, 60);
+  color: white;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.btn-thrie,
+.btn-two,
+.btn-one {
+  color: white;
+  border: none;
+  width: 110px;
+  height: 35px;
+}
+.btn-one {
+  background-color: rgb(242, 136, 60);
+  border-radius: 20px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.btn-two {
+  background-color: rgb(213, 41, 41);
+  margin-right: 1rem;
+  width: 110px;
+}
+.btn-thrie {
+  background-color: rgb(55, 55, 246);
+}
+.movie-item {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-top: 2rem;
+  background-color: rgba(243, 243, 243, 0.891);
+  border-radius: 20px;
+}
+.movie-name {
+  display: flex;
+  padding: 1rem;
+}
+.title {
+  text-align: start;
+  padding-bottom: 1.5rem;
+  padding: 1rem;
+}
